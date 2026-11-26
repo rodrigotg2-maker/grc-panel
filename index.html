@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GRC · Avance</title>
+<style>
+  :root { --bg:#14171c; --panel:#1f242c; --txt:#f2f4f7; --dim:#8fd3e8; --rojo:#e53935; --ok:#43c463; --amb:#f2b233; --mal:#e5533d; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, sans-serif; background:var(--bg); color:var(--txt); }
+  main { max-width: 720px; margin: 0 auto; padding: 16px; }
+  h1 { font-size: 1.2rem; margin: 0 0 4px; }
+  .sub { color: var(--dim); font-size: .85rem; }
+  .card { background: var(--panel); border-radius: 12px; padding: 14px 16px; margin: 12px 0; }
+  .big { font-size: 3rem; font-weight: 700; }
+  .bar { height: 8px; background: #2c333d; border-radius: 4px; overflow: hidden; }
+  .bar > i { display: block; height: 100%; background: var(--rojo); }
+  .fila { display: flex; justify-content: space-between; gap: 8px; margin: 6px 0; }
+  ul { margin: 6px 0; padding-left: 18px; }
+  .nota { color: var(--dim); font-size: .8rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1 id="titulo">GRC · Avance</h1>
+  <div class="sub" id="act">Cargando…</div>
+  <div class="card"><div class="sub">Avance total del plan</div><div class="big" id="total">–</div><div class="bar"><i id="totalbar" style="width:0"></i></div></div>
+  <div class="card"><div class="sub">Ahora mismo</div><div id="curso"></div></div>
+  <div class="card"><div class="sub">Depende de ti</div><ul id="pend"></ul></div>
+  <div class="card"><div class="sub">Fases</div><div id="fases"></div></div>
+  <div class="card"><div class="sub">Últimos hitos</div><ul id="hitos"></ul></div>
+  <p class="nota">Página provisoria: el diseño final viene de Claude Design. Los datos se actualizan solos.</p>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function hace(iso) {
+  const t = new Date(iso + ':00-03:00'); const m = Math.round((Date.now() - t) / 60000);
+  return m < 60 ? `hace ${m} min` : m < 1440 ? `hace ${Math.round(m/60)} h` : `hace ${Math.round(m/1440)} días`;
+}
+async function cargar() {
+  try {
+    const r = await fetch('estado.json?t=' + Date.now()); const e = await r.json();
+    $('titulo').textContent = e.proyecto || 'GRC';
+    $('act').textContent = `Actualizado ${hace(e.generado)} · ${e.generado.replace('T', ' ')}`;
+    $('total').textContent = e.avance_total + ' %'; $('totalbar').style.width = e.avance_total + '%';
+    const c = e.en_curso || {}; $('curso').innerHTML = `<b>${esc(c.titulo)}</b><br>${esc(c.detalle)}<br><span class="nota">${esc(c.equipo)}</span>`;
+    $('pend').innerHTML = (e.pendientes_dueno || []).map(p => `<li>${esc(p)}</li>`).join('') || '<li>Nada pendiente de tu parte</li>';
+    $('fases').innerHTML = (e.fases || []).filter(f => !f.opcional).map(f => `<div class="fila"><span>${esc(f.codigo)} · ${esc(f.nombre)}</span><span>${f.avance} %</span></div><div class="bar"><i style="width:${f.avance}%"></i></div>`).join('');
+    $('hitos').innerHTML = (e.ultimos_hitos || []).slice(0, 6).map(h => `<li>${esc(h.fecha)} · ${esc(h.texto)}</li>`).join('');
+  } catch (err) { $('act').textContent = 'No se pudo cargar el estado; reintentando…'; }
+}
+cargar(); setInterval(cargar, 120000);
+</script>
+</body>
+</html>
