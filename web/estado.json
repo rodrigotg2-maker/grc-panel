@@ -1,13 +1,13 @@
 {
-  "generado": "2026-11-26T16:56",
+  "generado": "2026-11-26T17:06",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
   "avance_total": 63,
   "en_curso": {
-    "titulo": "Bloque 21 · Barreras por tramo",
-    "detalle": "Último avance del PC2 (16:46): Bloque 23 (sin probar): postproceso por ambiente en una pasada (gradación, viñeta, nitidez, destello del sol, desenfoque de velocidad; sin_post)",
+    "titulo": "Arreglo del nivel BÁSICO (piano) y bloque 22 · Atmósfera",
+    "detalle": "Último avance del PC2 (17:00): CHOQUES compara cada barrera nueva con el muro de neumáticos (60 y 120 km/h a 30°, ±15 % en velocidad que conserva, rebote y golpe recibido: 89/89); detrás de la línea…",
     "equipo": "PC2",
-    "desde": "2026-11-26T15:20"
+    "desde": "2026-11-26T17:00"
   },
   "version_jugable": {
     "nombre": "GRC3D_v5",
