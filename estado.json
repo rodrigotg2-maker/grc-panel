@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-26T11:56",
+  "generado": "2026-11-26T11:58",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
   "avance_total": 59,
@@ -120,7 +120,7 @@
       "texto": "V1: los 3 circuitos originales con realismo completo"
     }
   ],
-  "pendientes_dueno": [
+  "pendientes_rodrigo": [
     "Probar GRC3D_v4 en familia (lluvia en BÁSICO y circuitos nuevos)",
     "Nombres finales de los circuitos y del juego",
     "Decisiones F0: estrategia fuera de la v1.0, itch.io primero, idiomas"
