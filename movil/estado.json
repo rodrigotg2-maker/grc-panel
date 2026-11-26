@@ -1,8 +1,8 @@
 {
-  "generado": "2026-11-26T18:06",
+  "generado": "2026-11-26T18:12",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
-  "avance_total": 63,
+  "avance_total": 66,
   "en_curso": {
     "titulo": "Bloque 22 · Atmósfera",
     "detalle": "Último avance del PC2 (17:42): Bloque 23 (sin probar): post también en las 2 vistas de la pantalla dividida (desenfoque, gradación, destello por vista)",
@@ -95,6 +95,10 @@
     "detalle": "Carrera ×6 circuitos, choques, 2 jugadores, controles, campeonato y mojado: todas OK en el último bloque."
   },
   "ultimos_hitos": [
+    {
+      "fecha": "2026-11-26",
+      "texto": "Barreras propias por circuito, semáforo visible en la largada y BÁSICO sin detenerse en el piano"
+    },
     {
       "fecha": "2026-11-26",
       "texto": "Vida en la pista: público, comisarios con bandera, mecánicos en los garajes y semáforo en el pórtico"
@@ -399,11 +403,11 @@
         {
           "id": "V2-vida",
           "nombre": "Vida en la pista: publico en impostores, comisarios, mecanicos, garajes abiertos, semaforo fisico sincronizado, reja de tribuna (meta c6)",
-          "avance": 90,
+          "avance": 100,
           "peso": 2
         }
       ],
-      "avance": 93,
+      "avance": 95,
       "grupo": "Estándar visual",
       "opcional": false
     },
@@ -465,7 +469,7 @@
         {
           "id": "V4-barreras",
           "nombre": "Barreras por tramo: guardarrail doble, valla de malla, muro de hormigon pintado, cerca de madera, cinta y neumaticos con detalle, gigantografias",
-          "avance": 0,
+          "avance": 100,
           "peso": 2
         },
         {
@@ -523,7 +527,7 @@
           "peso": 1
         }
       ],
-      "avance": 38,
+      "avance": 47,
       "grupo": "Estándar visual",
       "opcional": false
     }
