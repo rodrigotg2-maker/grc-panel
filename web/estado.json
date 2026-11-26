@@ -1,13 +1,13 @@
 {
-  "generado": "2026-11-26T13:14",
+  "generado": "2026-11-26T15:43",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
-  "avance_total": 61,
+  "avance_total": 63,
   "en_curso": {
-    "titulo": "Bloque 20 · Retoque de la selva y vida en la pista",
-    "detalle": "Primero, troncos de palmera, lianas, cielo y vapor de Río Verde. Después: público en las tribunas, comisarios, mecánicos, garajes abiertos y un semáforo físico sincronizado con la largada (meta: imagen c6).",
+    "titulo": "Bloque 21 · Barreras por tramo",
+    "detalle": "Cada circuito con su barrera propia: guardarraíl doble, valla de malla con púas en el desierto, muro de hormigón pintado, cerca de madera en la costa y la selva, neumáticos con detalle y gigantografías.",
     "equipo": "PC2",
-    "desde": "2026-11-26T13:05"
+    "desde": "2026-11-26T15:20"
   },
   "version_jugable": {
     "nombre": "GRC3D_v5",
@@ -95,6 +95,10 @@
     "detalle": "Carrera ×6 circuitos, choques, 2 jugadores, controles, campeonato y mojado: todas OK en el último bloque."
   },
   "ultimos_hitos": [
+    {
+      "fecha": "2026-11-26",
+      "texto": "Vida en la pista: público, comisarios con bandera, mecánicos en los garajes y semáforo en el pórtico"
+    },
     {
       "fecha": "2026-11-26",
       "texto": "Circuito 7 Río Verde (selva): árboles gigantes, palmeras, helechos y raíces"
@@ -389,17 +393,17 @@
         {
           "id": "V2-selva",
           "nombre": "Ambiente y circuito nuevo: Selva (meta c4; requiere OK de descargas)",
-          "avance": 95,
+          "avance": 100,
           "peso": 2
         },
         {
           "id": "V2-vida",
           "nombre": "Vida en la pista: publico en impostores, comisarios, mecanicos, garajes abiertos, semaforo fisico sincronizado, reja de tribuna (meta c6)",
-          "avance": 0,
+          "avance": 90,
           "peso": 2
         }
       ],
-      "avance": 74,
+      "avance": 93,
       "grupo": "Estándar visual",
       "opcional": false
     },
@@ -491,7 +495,7 @@
         {
           "id": "V4-flora",
           "nombre": "Flora por ambiente desde el generador de arboles: palmas, helechos, raices tabulares, lianas, cactus, arboles costeros, flores",
-          "avance": 50,
+          "avance": 65,
           "peso": 3
         },
         {
@@ -519,7 +523,7 @@
           "peso": 1
         }
       ],
-      "avance": 36,
+      "avance": 38,
       "grupo": "Estándar visual",
       "opcional": false
     }
