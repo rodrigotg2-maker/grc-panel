@@ -1,13 +1,13 @@
 {
-  "generado": "2026-11-26T11:58",
+  "generado": "2026-11-26T12:51",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
   "avance_total": 59,
   "en_curso": {
-    "titulo": "V2.4 Selva · Circuito 7 «Río Verde»",
-    "detalle": "Árboles gigantes con raíces, palmeras, lianas, flores y asfalto mojado sin lluvia (meta: imagen c4).",
-    "equipo": "PC2",
-    "desde": "2026-11-26T11:20"
+    "titulo": "Verificando Río Verde (selva) en el PC1",
+    "detalle": "El circuito 7 quedó construido y con sus pruebas OK en el PC2. Ahora se mide en el PC1 (fps a 1080p y bancos de carrera) antes de darlo por listo.",
+    "equipo": "PC1",
+    "desde": "2026-11-26T12:35"
   },
   "version_jugable": {
     "nombre": "GRC3D_v4",
