@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-26T12:58",
+  "generado": "2026-11-26T13:01",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
   "avance_total": 61,
@@ -10,10 +10,10 @@
     "desde": "2026-11-26T13:05"
   },
   "version_jugable": {
-    "nombre": "GRC3D_v4",
+    "nombre": "GRC3D_v5",
     "fecha": "2026-11-26",
-    "archivo": "entregas/GRC3D_v4.zip",
-    "contiene": "5 circuitos, lluvia y manejo en mojado"
+    "archivo": "entregas/GRC3D_v5.zip",
+    "contiene": "7 circuitos (con desierto y selva), lluvia y manejo en mojado"
   },
   "circuitos": [
     {
@@ -125,7 +125,7 @@
     }
   ],
   "pendientes_rodrigo": [
-    "Probar GRC3D_v4 en familia (lluvia en BÁSICO y circuitos nuevos)",
+    "Probar GRC3D_v5 en familia (7 circuitos; lluvia en BÁSICO)",
     "Nombres finales de los circuitos y del juego",
     "Decisiones F0: estrategia fuera de la v1.0, itch.io primero, idiomas"
   ],
