@@ -1,11 +1,11 @@
 {
-  "generado": "2026-11-26T17:36",
+  "generado": "2026-11-26T17:46",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
   "avance_total": 63,
   "en_curso": {
     "titulo": "Bloque 22 · Atmósfera",
-    "detalle": "Último avance del PC2 (17:22): Básico en el piano (prioridad del dueño): el piano se puede pisar; por el INTERIOR de la curva ya no se detiene (sigue con tope de 25 km/h mientras está fuera y la ba…",
+    "detalle": "Último avance del PC2 (17:42): Bloque 23 (sin probar): post también en las 2 vistas de la pantalla dividida (desenfoque, gradación, destello por vista)",
     "equipo": "PC2",
     "desde": "2026-11-26T17:00"
   },
