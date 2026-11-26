@@ -1,8 +1,8 @@
 {
-  "generado": "2026-11-26T19:56",
+  "generado": "2026-11-26T19:59",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
-  "avance_total": 69,
+  "avance_total": 70,
   "en_curso": {
     "titulo": "PC2 detenido desde las 18:59 · el PC1 verifica el bloque 24",
     "detalle": "Último avance del PC2 (18:59): Bloque 29 (sin probar): horizonte del mar abierto en Punta Faro (sin cerros ni siluetas sobre el mar), carteles GRC en el pórtico de meta y en el del semáforo; mundo_v…",
@@ -95,6 +95,14 @@
     "detalle": "Carrera ×6 circuitos, choques, 2 jugadores, controles, campeonato y mojado: todas OK en el último bloque."
   },
   "ultimos_hitos": [
+    {
+      "fecha": "2026-11-26",
+      "texto": "Clima y hora por carrera en el menú, y modo foto para imágenes de venta"
+    },
+    {
+      "fecha": "2026-11-26",
+      "texto": "Color y luz propios de cada circuito (gradación, destello del sol)"
+    },
     {
       "fecha": "2026-11-26",
       "texto": "Atmósfera: niebla a ras de suelo, rayos de sol, hojas que caen y remolinos de polvo"
@@ -440,11 +448,11 @@
         {
           "id": "V3-luz",
           "nombre": "Atmosfera: haces de sol en tarjetas, niebla en tarjetas y por altura, polvo, hojas, ajuste de calidad para PC modestos",
-          "avance": 95,
+          "avance": 100,
           "peso": 2
         }
       ],
-      "avance": 98,
+      "avance": 100,
       "grupo": "Estándar visual",
       "opcional": false
     },
@@ -515,7 +523,7 @@
         {
           "id": "V4-menu-clima",
           "nombre": "Menu: elegir clima y hora por carrera + modo foto sin interfaz para capturas de venta",
-          "avance": 0,
+          "avance": 100,
           "peso": 1
         },
         {
@@ -531,7 +539,7 @@
           "peso": 1
         }
       ],
-      "avance": 51,
+      "avance": 56,
       "grupo": "Estándar visual",
       "opcional": false
     }
