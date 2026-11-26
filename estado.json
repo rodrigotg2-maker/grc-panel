@@ -1,11 +1,11 @@
 {
-  "generado": "2026-11-26T18:36",
+  "generado": "2026-11-26T18:43",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
-  "avance_total": 66,
+  "avance_total": 68,
   "en_curso": {
     "titulo": "Bloque 23 · Color y luz por circuito",
-    "detalle": "Último avance del PC2 (17:43): Bloque 24 (sin probar): CLIMA y HORA por carrera en el menú de niveles (solo lo que permite cada circuito) y modo foto en la pausa (F: sin interfaz; Enter guarda en us…",
+    "detalle": "Último avance del PC2 (18:41): En 2 jugadores el post filtra lineal y sin nitidez (la vista escalada se veía pixelada)",
     "equipo": "PC2",
     "desde": "2026-11-26T18:35"
   },
@@ -95,6 +95,10 @@
     "detalle": "Carrera ×6 circuitos, choques, 2 jugadores, controles, campeonato y mojado: todas OK en el último bloque."
   },
   "ultimos_hitos": [
+    {
+      "fecha": "2026-11-26",
+      "texto": "Atmósfera: niebla a ras de suelo, rayos de sol, hojas que caen y remolinos de polvo"
+    },
     {
       "fecha": "2026-11-26",
       "texto": "Barreras propias por circuito, semáforo visible en la largada y BÁSICO sin detenerse en el piano"
@@ -436,11 +440,11 @@
         {
           "id": "V3-luz",
           "nombre": "Atmosfera: haces de sol en tarjetas, niebla en tarjetas y por altura, polvo, hojas, ajuste de calidad para PC modestos",
-          "avance": 0,
+          "avance": 95,
           "peso": 2
         }
       ],
-      "avance": 67,
+      "avance": 98,
       "grupo": "Estándar visual",
       "opcional": false
     },
