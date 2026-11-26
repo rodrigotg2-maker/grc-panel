@@ -1,0 +1,523 @@
+{
+  "generado": "2026-11-26T11:58",
+  "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
+  "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
+  "avance_total": 59,
+  "en_curso": {
+    "titulo": "V2.4 Selva · Circuito 7 «Río Verde»",
+    "detalle": "Árboles gigantes con raíces, palmeras, lianas, flores y asfalto mojado sin lluvia (meta: imagen c4).",
+    "equipo": "PC2",
+    "desde": "2026-11-26T11:20"
+  },
+  "version_jugable": {
+    "nombre": "GRC3D_v4",
+    "fecha": "2026-11-26",
+    "archivo": "entregas/GRC3D_v4.zip",
+    "contiene": "5 circuitos, lluvia y manejo en mojado"
+  },
+  "circuitos": [
+    {
+      "n": 1,
+      "nombre": "Zigzag",
+      "ambiente": "Mediodía",
+      "estado": "listo"
+    },
+    {
+      "n": 2,
+      "nombre": "El 95",
+      "ambiente": "Atardecer",
+      "estado": "listo"
+    },
+    {
+      "n": 3,
+      "nombre": "Laberinto",
+      "ambiente": "Nublado",
+      "estado": "listo"
+    },
+    {
+      "n": 4,
+      "nombre": "Los Alerces",
+      "ambiente": "Bosque lluvioso",
+      "estado": "listo"
+    },
+    {
+      "n": 5,
+      "nombre": "Punta Faro",
+      "ambiente": "Costa al atardecer",
+      "estado": "listo"
+    },
+    {
+      "n": 6,
+      "nombre": "Pampa Roja",
+      "ambiente": "Desierto",
+      "estado": "listo"
+    },
+    {
+      "n": 7,
+      "nombre": "Río Verde",
+      "ambiente": "Selva",
+      "estado": "en curso"
+    }
+  ],
+  "rendimiento": {
+    "equipo": "PC1 · 1080p · gráficos MEDIO",
+    "meta_fps": 60,
+    "mediciones": [
+      {
+        "circuito": "Zigzag",
+        "fps": 66
+      },
+      {
+        "circuito": "El 95",
+        "fps": 62
+      },
+      {
+        "circuito": "Laberinto",
+        "fps": 62
+      },
+      {
+        "circuito": "Los Alerces (lluvia)",
+        "fps": 63
+      },
+      {
+        "circuito": "Punta Faro",
+        "fps": 65
+      },
+      {
+        "circuito": "Pampa Roja",
+        "fps": 70
+      }
+    ],
+    "nota": "Carrera con 6 autos; con resolución dinámica."
+  },
+  "pruebas": {
+    "estado": "verde",
+    "detalle": "Carrera ×6 circuitos, choques, 2 jugadores, controles, campeonato y mojado: todas OK en el último bloque."
+  },
+  "ultimos_hitos": [
+    {
+      "fecha": "2026-11-26",
+      "texto": "Circuito 6 Pampa Roja (desierto) y resolución dinámica"
+    },
+    {
+      "fecha": "2026-11-26",
+      "texto": "Carreras más fluidas: interfaz y sombras optimizadas (+10 fps)"
+    },
+    {
+      "fecha": "2026-11-26",
+      "texto": "Circuito 5 Punta Faro (costa) y autos rivales livianos"
+    },
+    {
+      "fecha": "2026-11-26",
+      "texto": "Lluvia completa y manejo en mojado"
+    },
+    {
+      "fecha": "2026-11-26",
+      "texto": "Circuito 4 Los Alerces (bosque lluvioso)"
+    },
+    {
+      "fecha": "2026-11-25",
+      "texto": "V1: los 3 circuitos originales con realismo completo"
+    }
+  ],
+  "pendientes_rodrigo": [
+    "Probar GRC3D_v4 en familia (lluvia en BÁSICO y circuitos nuevos)",
+    "Nombres finales de los circuitos y del juego",
+    "Decisiones F0: estrategia fuera de la v1.0, itch.io primero, idiomas"
+  ],
+  "fases": [
+    {
+      "codigo": "F0",
+      "nombre": "Meta",
+      "tareas": [
+        {
+          "id": "F0-meta",
+          "nombre": "Definir el producto v1.0 (decisiones del dueño)",
+          "avance": 0,
+          "peso": 1
+        }
+      ],
+      "avance": 0,
+      "grupo": "Producto y venta",
+      "opcional": false
+    },
+    {
+      "codigo": "F1",
+      "nombre": "Choques y sensacion",
+      "tareas": [
+        {
+          "id": "F1-banco",
+          "nombre": "Banco de choques medible (muro y auto contra auto)",
+          "avance": 100,
+          "peso": 1
+        },
+        {
+          "id": "F1-fisica",
+          "nombre": "Respuesta fisica del choque como el mercado",
+          "avance": 100,
+          "peso": 2
+        },
+        {
+          "id": "F1-dano",
+          "nombre": "Dano visible (rayones, abolladuras, piezas sueltas)",
+          "avance": 100,
+          "peso": 2
+        },
+        {
+          "id": "F1-fx",
+          "nombre": "Sonido por capas, chispas, trozos, camara",
+          "avance": 100,
+          "peso": 1
+        },
+        {
+          "id": "F1-prueba",
+          "nombre": "Prueba de la familia + ajuste",
+          "avance": 0,
+          "peso": 1
+        }
+      ],
+      "avance": 86,
+      "grupo": "Base del juego",
+      "opcional": false
+    },
+    {
+      "codigo": "F2",
+      "nombre": "Auto y camara",
+      "tareas": [
+        {
+          "id": "F2-auto",
+          "nombre": "Auto y camara: ruedas, suspension visual, reflejos, 3 camaras",
+          "avance": 90,
+          "peso": 3
+        }
+      ],
+      "avance": 90,
+      "grupo": "Base del juego",
+      "opcional": false
+    },
+    {
+      "codigo": "F3",
+      "nombre": "Presentacion",
+      "tareas": [
+        {
+          "id": "F3-menus",
+          "nombre": "Menu principal 3D, garage, opciones, pausa, podio, creditos",
+          "avance": 95,
+          "peso": 5
+        },
+        {
+          "id": "F3-musica",
+          "nombre": "Musica de menu y carrera (libre de derechos)",
+          "avance": 0,
+          "peso": 1
+        }
+      ],
+      "avance": 79,
+      "grupo": "Base del juego",
+      "opcional": false
+    },
+    {
+      "codigo": "F4",
+      "nombre": "Contenido",
+      "tareas": [
+        {
+          "id": "F4-circuitos",
+          "nombre": "Circuitos 2 y 3 con ambiente propio (atardecer, nublado)",
+          "avance": 100,
+          "peso": 5
+        },
+        {
+          "id": "F4-modos",
+          "nombre": "Campeonato, contrarreloj con fantasma",
+          "avance": 100,
+          "peso": 4
+        },
+        {
+          "id": "F4-dos",
+          "nombre": "Dos jugadores pantalla dividida (familia)",
+          "avance": 90,
+          "peso": 3
+        }
+      ],
+      "avance": 98,
+      "grupo": "Base del juego",
+      "opcional": false
+    },
+    {
+      "codigo": "F5",
+      "nombre": "Mundo",
+      "tareas": [
+        {
+          "id": "F5-mundo",
+          "nombre": "Mundo: pits, carteles GRC, edificios, grava, luz precalculada",
+          "avance": 70,
+          "peso": 5
+        }
+      ],
+      "avance": 70,
+      "grupo": "Base del juego",
+      "opcional": false
+    },
+    {
+      "codigo": "F6",
+      "nombre": "Control",
+      "tareas": [
+        {
+          "id": "F6-control",
+          "nombre": "Joystick con vibracion y remapeo de teclas",
+          "avance": 85,
+          "peso": 2
+        }
+      ],
+      "avance": 85,
+      "grupo": "Base del juego",
+      "opcional": false
+    },
+    {
+      "codigo": "F7",
+      "nombre": "Estrategia (opcional)",
+      "tareas": [
+        {
+          "id": "F7-estrategia",
+          "nombre": "Combustible, neumaticos y pits (si entra en v1.0)",
+          "avance": 0,
+          "peso": 5
+        }
+      ],
+      "avance": 0,
+      "grupo": "Producto y venta",
+      "opcional": true
+    },
+    {
+      "codigo": "F8",
+      "nombre": "Producto y venta",
+      "tareas": [
+        {
+          "id": "F8-build",
+          "nombre": "Ejecutable Windows, icono, guardado, rendimiento PC 2",
+          "avance": 0,
+          "peso": 3
+        },
+        {
+          "id": "F8-pruebas",
+          "nombre": "Pruebas con 5 a 10 personas reales y correcciones",
+          "avance": 0,
+          "peso": 5
+        },
+        {
+          "id": "F8-tienda",
+          "nombre": "Pagina itch.io, trailer, capturas, precio",
+          "avance": 0,
+          "peso": 3
+        },
+        {
+          "id": "F8-lanzar",
+          "nombre": "Lanzamiento (solo con OK del dueño)",
+          "avance": 0,
+          "peso": 1
+        }
+      ],
+      "avance": 0,
+      "grupo": "Producto y venta",
+      "opcional": false
+    },
+    {
+      "codigo": "V1",
+      "nombre": "Realismo de circuitos actuales",
+      "tareas": [
+        {
+          "id": "V1-suelos",
+          "nombre": "Realismo: suelos (pasto mezclado, tierra, grava, bordes)",
+          "avance": 100,
+          "peso": 1
+        },
+        {
+          "id": "V1-arboles",
+          "nombre": "Realismo: arboles con follaje real (por codigo, 3 LOD) + atlas de coniferas (o plan B), racimos desde LeafSet, viento, alpha to coverage, contraluz, bosque continuo en 2 bandas",
+          "avance": 100,
+          "peso": 2
+        },
+        {
+          "id": "V1-bordes",
+          "nombre": "Realismo: arbustos, pasto alto, rocas con musgo, flores y transicion en la base de barreras",
+          "avance": 100,
+          "peso": 1
+        },
+        {
+          "id": "V1-fondo",
+          "nombre": "Realismo: cerros con bosque en 3-4 capas, bancos de niebla de valle, HDRI por ambiente",
+          "avance": 100,
+          "peso": 1
+        },
+        {
+          "id": "V1-revision",
+          "nombre": "Revision con capturas vs c5 + fps PC1 y 2 jugadores + paquete para el dueño",
+          "avance": 100,
+          "peso": 1
+        }
+      ],
+      "avance": 100,
+      "grupo": "Estándar visual",
+      "opcional": false
+    },
+    {
+      "codigo": "V2",
+      "nombre": "Ambientes y circuitos nuevos",
+      "tareas": [
+        {
+          "id": "V2-bosque",
+          "nombre": "Ambiente y circuito nuevo: Bosque (meta c1)",
+          "avance": 100,
+          "peso": 2
+        },
+        {
+          "id": "V2-costa",
+          "nombre": "Ambiente y circuito nuevo: Costa (meta c3; requiere OK de descargas)",
+          "avance": 85,
+          "peso": 2
+        },
+        {
+          "id": "V2-desierto",
+          "nombre": "Ambiente y circuito nuevo: Desierto (meta c2; requiere OK de descargas)",
+          "avance": 90,
+          "peso": 2
+        },
+        {
+          "id": "V2-selva",
+          "nombre": "Ambiente y circuito nuevo: Selva (meta c4; requiere OK de descargas)",
+          "avance": 10,
+          "peso": 2
+        },
+        {
+          "id": "V2-vida",
+          "nombre": "Vida en la pista: publico en impostores, comisarios, mecanicos, garajes abiertos, semaforo fisico sincronizado, reja de tribuna (meta c6)",
+          "avance": 0,
+          "peso": 2
+        }
+      ],
+      "avance": 57,
+      "grupo": "Estándar visual",
+      "opcional": false
+    },
+    {
+      "codigo": "V3",
+      "nombre": "Clima y atmosfera",
+      "tareas": [
+        {
+          "id": "V3-mojado",
+          "nombre": "Asfalto mojado: brillo, charcos, pianos mojados y reflejos simulados de luces y autos (sin SSR en Mobile)",
+          "avance": 100,
+          "peso": 1
+        },
+        {
+          "id": "V3-lluvia",
+          "nombre": "Lluvia: gotas, spray de los autos, neblina, gotas en camara de capo",
+          "avance": 100,
+          "peso": 1
+        },
+        {
+          "id": "V3-agarre",
+          "nombre": "Manejo en mojado: menos agarre progresivo por km/h, IA y ayudas adaptadas, bancos",
+          "avance": 100,
+          "peso": 2
+        },
+        {
+          "id": "V3-luz",
+          "nombre": "Atmosfera: haces de sol en tarjetas, niebla en tarjetas y por altura, polvo, hojas, ajuste de calidad para PC modestos",
+          "avance": 0,
+          "peso": 2
+        }
+      ],
+      "avance": 67,
+      "grupo": "Estándar visual",
+      "opcional": false
+    },
+    {
+      "codigo": "V4",
+      "nombre": "Estandar visual transversal",
+      "tareas": [
+        {
+          "id": "V4-render",
+          "nombre": "Decidir renderizador (Mobile vs Forward+): medir SSAO, SSR y niebla volumetrica en PC1, PC2 (HD 620) y 2 jugadores",
+          "avance": 100,
+          "peso": 1
+        },
+        {
+          "id": "V4-presupuesto",
+          "nombre": "Presupuesto de rendimiento por efecto y escalones ALTO/BAJO/2 jugadores (follaje, particulas, reflejos, niebla)",
+          "avance": 100,
+          "peso": 1
+        },
+        {
+          "id": "V4-desgaste",
+          "nombre": "Pista con uso: goma en la trazada, marcas de frenada, parches, pianos y lineas gastados, cajones de parrilla",
+          "avance": 100,
+          "peso": 1
+        },
+        {
+          "id": "V4-barreras",
+          "nombre": "Barreras por tramo: guardarrail doble, valla de malla, muro de hormigon pintado, cerca de madera, cinta y neumaticos con detalle, gigantografias",
+          "avance": 0,
+          "peso": 2
+        },
+        {
+          "id": "V4-contacto",
+          "nombre": "Sombras de contacto y oclusion simulada: mancha bajo autos, AO en vertices, base de arboles y barreras",
+          "avance": 30,
+          "peso": 1
+        },
+        {
+          "id": "V4-post",
+          "nombre": "Postproceso por ambiente: gradacion (LUT), bloom, vineta, nitidez, destello del sol, desenfoque de velocidad en 2 jugadores",
+          "avance": 0,
+          "peso": 1
+        },
+        {
+          "id": "V4-autos",
+          "nombre": "Detalle del auto: luces con resplandor, suciedad por ambiente, pinzas de freno, reflejo de sondas por sector",
+          "avance": 20,
+          "peso": 1
+        },
+        {
+          "id": "V4-siluetas",
+          "nombre": "Dos o tres siluetas de auto mas (CC0/CC-BY, con OK de descargas del dueño)",
+          "avance": 0,
+          "peso": 4
+        },
+        {
+          "id": "V4-flora",
+          "nombre": "Flora por ambiente desde el generador de arboles: palmas, helechos, raices tabulares, lianas, cactus, arboles costeros, flores",
+          "avance": 50,
+          "peso": 3
+        },
+        {
+          "id": "V4-paisaje",
+          "nombre": "Paisajes de fondo por ambiente: mar con oleaje y espuma, roca roja, montana nevada generica, faro, bruma de selva, HDRI por ambiente",
+          "avance": 70,
+          "peso": 3
+        },
+        {
+          "id": "V4-menu-clima",
+          "nombre": "Menu: elegir clima y hora por carrera + modo foto sin interfaz para capturas de venta",
+          "avance": 0,
+          "peso": 1
+        },
+        {
+          "id": "V4-revision",
+          "nombre": "Revision final contra los 6 conceptos: mismo encuadre, tabla de brechas, fps PC1, PC2 y 2 jugadores",
+          "avance": 0,
+          "peso": 1
+        },
+        {
+          "id": "V4-driver",
+          "nombre": "Driver grafico en Windows: evaluar D3D12 (+ --rendering-method mobile) por defecto o respaldo automatico si Vulkan falla; la Intel HD 620 del PC2 se cuelga con Vulkan (25-11)",
+          "avance": 40,
+          "peso": 1
+        }
+      ],
+      "avance": 36,
+      "grupo": "Estándar visual",
+      "opcional": false
+    }
+  ]
+}
