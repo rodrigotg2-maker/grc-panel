@@ -1,13 +1,13 @@
 {
-  "generado": "2026-11-26T12:51",
+  "generado": "2026-11-26T12:58",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
-  "avance_total": 59,
+  "avance_total": 61,
   "en_curso": {
-    "titulo": "Verificando Río Verde (selva) en el PC1",
-    "detalle": "El circuito 7 quedó construido y con sus pruebas OK en el PC2. Ahora se mide en el PC1 (fps a 1080p y bancos de carrera) antes de darlo por listo.",
-    "equipo": "PC1",
-    "desde": "2026-11-26T12:35"
+    "titulo": "Bloque 20 · Retoque de la selva y vida en la pista",
+    "detalle": "Primero, troncos de palmera, lianas, cielo y vapor de Río Verde. Después: público en las tribunas, comisarios, mecánicos, garajes abiertos y un semáforo físico sincronizado con la largada (meta: imagen c6).",
+    "equipo": "PC2",
+    "desde": "2026-11-26T13:05"
   },
   "version_jugable": {
     "nombre": "GRC3D_v4",
@@ -56,7 +56,7 @@
       "n": 7,
       "nombre": "Río Verde",
       "ambiente": "Selva",
-      "estado": "en curso"
+      "estado": "listo"
     }
   ],
   "rendimiento": {
@@ -88,13 +88,17 @@
         "fps": 70
       }
     ],
-    "nota": "Carrera con 6 autos; con resolución dinámica."
+    "nota": "Carrera con 6 autos; con resolución dinámica. Río Verde se midió con el PC1 cargado: rindió más que el bosque en la misma prueba (51 contra 41 fps); se repite con el PC1 libre."
   },
   "pruebas": {
     "estado": "verde",
     "detalle": "Carrera ×6 circuitos, choques, 2 jugadores, controles, campeonato y mojado: todas OK en el último bloque."
   },
   "ultimos_hitos": [
+    {
+      "fecha": "2026-11-26",
+      "texto": "Circuito 7 Río Verde (selva): árboles gigantes, palmeras, helechos y raíces"
+    },
     {
       "fecha": "2026-11-26",
       "texto": "Circuito 6 Pampa Roja (desierto) y resolución dinámica"
@@ -385,7 +389,7 @@
         {
           "id": "V2-selva",
           "nombre": "Ambiente y circuito nuevo: Selva (meta c4; requiere OK de descargas)",
-          "avance": 10,
+          "avance": 90,
           "peso": 2
         },
         {
@@ -395,7 +399,7 @@
           "peso": 2
         }
       ],
-      "avance": 57,
+      "avance": 73,
       "grupo": "Estándar visual",
       "opcional": false
     },
