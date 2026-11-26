@@ -1,12 +1,12 @@
 {
-  "generado": "2026-11-26T19:46",
+  "generado": "2026-11-26T19:56",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
   "avance_total": 69,
   "en_curso": {
-    "titulo": "Bloque 24 · Clima y hora en el menú, y modo foto",
+    "titulo": "PC2 detenido desde las 18:59 · el PC1 verifica el bloque 24",
     "detalle": "Último avance del PC2 (18:59): Bloque 29 (sin probar): horizonte del mar abierto en Punta Faro (sin cerros ni siluetas sobre el mar), carteles GRC en el pórtico de meta y en el del semáforo; mundo_v…",
-    "equipo": "PC2",
+    "equipo": "PC1",
     "desde": "2026-11-26T18:45"
   },
   "version_jugable": {
