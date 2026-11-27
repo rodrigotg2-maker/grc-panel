@@ -1,11 +1,11 @@
 {
-  "generado": "2026-11-27T02:26",
+  "generado": "2026-11-27T02:36",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
   "avance_total": 78,
   "en_curso": {
     "titulo": "Bloque 39 · Suelo y bordes realistas (el PC1 verifica fondos y luz)",
-    "detalle": "Último avance del PC2 (02:24): 38c + 36 parte 2: volcan con base hundida 120 m, nieve solo en la cumbre y faldas de roca azulada, suelo lejano de 26 km en el desierto (losa); haces de la selva mas a…",
+    "detalle": "Último avance del PC2 (02:31): Bloque 39 (suelo, parte 1): manchas grandes de tierra desnuda en el pasto de los circuitos de pasto (dirt_patch 0,55) y pianos con relieve (normal 0,5); suelo_viejo",
     "equipo": "PC2",
     "desde": "2026-11-26T23:15"
   },
