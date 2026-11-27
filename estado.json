@@ -1,11 +1,11 @@
 {
-  "generado": "2026-11-27T03:46",
+  "generado": "2026-11-27T03:56",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
   "avance_total": 79,
   "en_curso": {
-    "titulo": "Asfalto mojado y rayos de sol (2.º intento) y fondos por circuito",
-    "detalle": "Último avance del PC2 (03:19): Bloques 43 y 44: asfalto mojado casi negro (albedo 0,22, charcos 0,35, rugosidad 0,06; mojado_viejo) y haces largos (26-40 m, 3-6 m de ancho, uno cada ~60 m) que nacen…",
+    "titulo": "Bloque 46 · Árboles cercanos y sotobosque (el PC1 verifica mojado, rayos de sol y fondos)",
+    "detalle": "Último avance del PC2 (03:54): 43b/43c/44b/45: mojado con menos cielo reflejado (wet_spec 0,45, mojado_cielo=N) y tinte oscuro del entorno, niebla por altura del bosque y la selva a la mitad (lavaba…",
     "equipo": "PC2",
     "desde": "2026-11-26T23:15"
   },
