@@ -1,11 +1,11 @@
 {
-  "generado": "2026-11-27T02:06",
+  "generado": "2026-11-27T02:16",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
   "avance_total": 78,
   "en_curso": {
     "titulo": "Correcciones del revisor: fondo del desierto, rayos de sol y desenfoque",
-    "detalle": "Último avance del PC2 (01:22): Bloque 37 parte 2 y pendientes del revisor: asfalto mojado mas oscuro y espejado (albedo 0,38, charcos 0,45, rugosidad 0,12; mojado_viejo), sonda con intensidad 1 con…",
+    "detalle": "Último avance del PC2 (02:07): 38b (revisor b35b_b38): sin cintas de niebla de valle en el desierto (losa azul delante del volcan), desenfoque con mezcla gradual (marco de lineas), selva con mas ver…",
     "equipo": "PC2",
     "desde": "2026-11-26T23:15"
   },
