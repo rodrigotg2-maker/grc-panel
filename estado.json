@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-26T22:29",
+  "generado": "2026-11-26T22:38",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
   "avance_total": 77,
@@ -95,6 +95,10 @@
     "detalle": "Carrera ×6 circuitos, choques, 2 jugadores, controles, campeonato y mojado: todas OK en el último bloque."
   },
   "ultimos_hitos": [
+    {
+      "fecha": "2026-11-26",
+      "texto": "Circuito 8 Paso Nevado: montaña de 71 m de desnivel, horquillas, nieve y nevada"
+    },
     {
       "fecha": "2026-11-26",
       "texto": "Música de menú y carrera, detalle de los autos, mar y pinos de la costa, carteles GRC"
