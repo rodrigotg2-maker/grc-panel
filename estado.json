@@ -1,10 +1,10 @@
 {
-  "generado": "2026-11-27T01:26",
+  "generado": "2026-11-27T01:36",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
   "avance_total": 78,
   "en_curso": {
-    "titulo": "Bloque 37 · Asfalto mojado espejado (el PC1 mide follaje y fondos)",
+    "titulo": "Correcciones del revisor: fondo del desierto, rayos de sol y desenfoque",
     "detalle": "Último avance del PC2 (01:22): Bloque 37 parte 2 y pendientes del revisor: asfalto mojado mas oscuro y espejado (albedo 0,38, charcos 0,45, rugosidad 0,12; mojado_viejo), sonda con intensidad 1 con…",
     "equipo": "PC2",
     "desde": "2026-11-26T23:15"
