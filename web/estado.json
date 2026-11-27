@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-27T05:56",
+  "generado": "2026-11-27T06:00",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
   "avance_total": 79,
@@ -95,6 +95,10 @@
     "detalle": "Carrera ×6 circuitos, choques, 2 jugadores, controles, campeonato y mojado: todas OK en el último bloque."
   },
   "ultimos_hitos": [
+    {
+      "fecha": "2026-11-27",
+      "texto": "Noche de realismo: los 7 circuitos más cerca de las imágenes meta (de 2–5 a 4–5,5 sobre 10)"
+    },
     {
       "fecha": "2026-11-26",
       "texto": "Comparación del juego con las 7 imágenes meta: 11 brechas ordenadas por impacto"
@@ -511,7 +515,7 @@
         {
           "id": "V4-autos",
           "nombre": "Detalle del auto: luces con resplandor, suciedad por ambiente, pinzas de freno, reflejo de sondas por sector",
-          "avance": 85,
+          "avance": 90,
           "peso": 1
         },
         {
@@ -541,7 +545,7 @@
         {
           "id": "V4-revision",
           "nombre": "Revision final contra los 6 conceptos: mismo encuadre, tabla de brechas, fps PC1, PC2 y 2 jugadores",
-          "avance": 50,
+          "avance": 75,
           "peso": 1
         },
         {
@@ -551,7 +555,7 @@
           "peso": 1
         }
       ],
-      "avance": 75,
+      "avance": 76,
       "grupo": "Estándar visual",
       "opcional": false
     }
