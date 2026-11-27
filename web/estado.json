@@ -1,11 +1,11 @@
 {
-  "generado": "2026-11-27T00:26",
+  "generado": "2026-11-27T00:36",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
   "avance_total": 78,
   "en_curso": {
     "titulo": "Bloque 35 · Árboles cercanos realistas (el PC1 verifica el 34)",
-    "detalle": "Último avance del PC2 (23:32): Bloque 34 (autos): sonda de reflexion que sigue al jugador (ALTO y MEDIO, solo refleja sobre los autos, autos en capa 2), barniz nitido sobre base menos metalica, moja…",
+    "detalle": "Último avance del PC2 (00:27): Follaje con hojas reales (LeafSet016 roble, LeafSet022 hoja ancha) en racimos e impostores _v35, tono oscuro y neutro, contraluz menos amarillo, selva sin doble satura…",
     "equipo": "PC2",
     "desde": "2026-11-26T23:15"
   },
