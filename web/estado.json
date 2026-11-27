@@ -1,8 +1,8 @@
 {
-  "generado": "2026-11-27T02:36",
+  "generado": "2026-11-27T02:37",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
-  "avance_total": 78,
+  "avance_total": 79,
   "en_curso": {
     "titulo": "Bloque 39 · Suelo y bordes realistas (el PC1 verifica fondos y luz)",
     "detalle": "Último avance del PC2 (02:31): Bloque 39 (suelo, parte 1): manchas grandes de tierra desnuda en el pasto de los circuitos de pasto (dirt_patch 0,55) y pianos con relieve (normal 0,5); suelo_viejo",
@@ -499,13 +499,13 @@
         {
           "id": "V4-contacto",
           "nombre": "Sombras de contacto y oclusion simulada: mancha bajo autos, AO en vertices, base de arboles y barreras",
-          "avance": 85,
+          "avance": 90,
           "peso": 1
         },
         {
           "id": "V4-post",
           "nombre": "Postproceso por ambiente: gradacion (LUT), bloom, vineta, nitidez, destello del sol, desenfoque de velocidad en 2 jugadores",
-          "avance": 85,
+          "avance": 95,
           "peso": 1
         },
         {
@@ -523,13 +523,13 @@
         {
           "id": "V4-flora",
           "nombre": "Flora por ambiente desde el generador de arboles: palmas, helechos, raices tabulares, lianas, cactus, arboles costeros, flores",
-          "avance": 85,
+          "avance": 90,
           "peso": 3
         },
         {
           "id": "V4-paisaje",
           "nombre": "Paisajes de fondo por ambiente: mar con oleaje y espuma, roca roja, montana nevada generica, faro, bruma de selva, HDRI por ambiente",
-          "avance": 90,
+          "avance": 95,
           "peso": 3
         },
         {
@@ -551,7 +551,7 @@
           "peso": 1
         }
       ],
-      "avance": 72,
+      "avance": 75,
       "grupo": "Estándar visual",
       "opcional": false
     }
