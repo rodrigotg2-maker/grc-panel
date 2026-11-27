@@ -1,11 +1,11 @@
 {
-  "generado": "2026-11-26T23:27",
+  "generado": "2026-11-26T23:37",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
   "avance_total": 78,
   "en_curso": {
     "titulo": "Bloque 34 · Autos más realistas (pintura con reflejos)",
-    "detalle": "Último avance del PC2 (23:17): Bloque 34 (item chico El 95): en el atardecer, glow solo sobre 1,8 HDR y a 0,15, especular del sol 0,45 (la trasera se encandilaba en Vulkan tambien sin post); sin_glo…",
+    "detalle": "Último avance del PC2 (23:32): Bloque 34 (autos): sonda de reflexion que sigue al jugador (ALTO y MEDIO, solo refleja sobre los autos, autos en capa 2), barniz nitido sobre base menos metalica, moja…",
     "equipo": "PC2",
     "desde": "2026-11-26T23:15"
   },
