@@ -1,11 +1,11 @@
 {
-  "generado": "2026-11-27T02:46",
+  "generado": "2026-11-27T02:56",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
   "avance_total": 79,
   "en_curso": {
-    "titulo": "Bloque 39 · Suelo y bordes realistas (el PC1 verifica fondos y luz)",
-    "detalle": "Último avance del PC2 (02:38): Merge remote-tracking branch 'origin/main' into claude/pc2-bosque",
+    "titulo": "Segunda vuelta: comparar de nuevo con las 7 imágenes (el PC1 verifica suelo y parrilla)",
+    "detalle": "Último avance del PC2 (02:48): Pendientes del revisor b38c: haces x2 fuera de OpenGL y haces_x=N; c3 en practica desde la muestra 676 (mar y sol bajo); c7 sin franja beige (escapatoria de grava como…",
     "equipo": "PC2",
     "desde": "2026-11-26T23:15"
   },
