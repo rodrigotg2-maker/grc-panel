@@ -1,13 +1,13 @@
 {
-  "generado": "2026-11-26T23:07",
+  "generado": "2026-11-26T23:11",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
   "avance_total": 78,
   "en_curso": {
-    "titulo": "Bloque 32 · Comparar el juego con las 7 imágenes meta",
-    "detalle": "Último avance del PC2 (22:51): Merge remote-tracking branch 'origin/main' into claude/pc2-bosque",
+    "titulo": "Bloque 34 · Autos más realistas (pintura con reflejos)",
+    "detalle": "Último avance del PC2 (23:09): Tabla de brechas contra c1-c7 (planes/grc3d/BRECHAS_C1_C7.md, 11 filas por impacto: autos, arboles cercanos, luz, post, mojado, particulas, suelo, fondo, parrilla, nie…",
     "equipo": "PC2",
-    "desde": "2026-11-26T22:20"
+    "desde": "2026-11-26T23:15"
   },
   "version_jugable": {
     "nombre": "GRC3D_v6",
@@ -95,6 +95,10 @@
     "detalle": "Carrera ×6 circuitos, choques, 2 jugadores, controles, campeonato y mojado: todas OK en el último bloque."
   },
   "ultimos_hitos": [
+    {
+      "fecha": "2026-11-26",
+      "texto": "Comparación del juego con las 7 imágenes meta: 11 brechas ordenadas por impacto"
+    },
     {
       "fecha": "2026-11-26",
       "texto": "Circuito 8 Paso Nevado: montaña de 71 m de desnivel, horquillas, nieve y nevada"
@@ -537,7 +541,7 @@
         {
           "id": "V4-revision",
           "nombre": "Revision final contra los 6 conceptos: mismo encuadre, tabla de brechas, fps PC1, PC2 y 2 jugadores",
-          "avance": 0,
+          "avance": 50,
           "peso": 1
         },
         {
@@ -547,7 +551,7 @@
           "peso": 1
         }
       ],
-      "avance": 70,
+      "avance": 72,
       "grupo": "Estándar visual",
       "opcional": false
     }
