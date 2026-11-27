@@ -1,11 +1,11 @@
 {
-  "generado": "2026-11-27T00:46",
+  "generado": "2026-11-27T00:56",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
   "avance_total": 78,
   "en_curso": {
     "titulo": "Bloque 36 · Luz, sombras suaves y rayos de sol (el PC1 verifica el 35)",
-    "detalle": "Último avance del PC2 (00:44): Bloque 36 (luz y post, parte 1): desenfoque de movimiento suave (largo 0,04, desde 170 km/h, franja del horizonte nitida), hojas que caen chicas, claras, 40 % menos y…",
+    "detalle": "Último avance del PC2 (00:52): Bloque 34b (autos, revisor filas 1 y 2): rojo carmin oscuro para las libreas rojas, barniz con clearcoat_roughness 0,035, barra LED de ancho completo sobre las luces t…",
     "equipo": "PC2",
     "desde": "2026-11-26T23:15"
   },
