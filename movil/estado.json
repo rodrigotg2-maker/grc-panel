@@ -1,10 +1,10 @@
 {
-  "generado": "2026-11-27T06:19",
+  "generado": "2026-11-27T06:29",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
   "avance_total": 79,
   "en_curso": {
-    "titulo": "Bloque 31b · Gente visible en los pits (el PC1 verifica la sombra bajo los autos)",
+    "titulo": "Bloques 48b y 31c · Sombra visible bajo los autos y gente en la parrilla",
     "detalle": "Último avance del PC2 (06:18): Bloque 31b (pits, c6): figura humana por piezas (piernas, torso con franja, brazos, cabeza y gorro), comisario de largada junto al poste del portico con la bandera ver…",
     "equipo": "PC2",
     "desde": "2026-11-26T23:15"
