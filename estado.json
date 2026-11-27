@@ -2,7 +2,7 @@
   "generado": "2026-11-26T22:29",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
-  "avance_total": 70,
+  "avance_total": 77,
   "en_curso": {
     "titulo": "Bloque 32 · Comparar el juego con las 7 imágenes meta",
     "detalle": "Último avance del PC2 (22:23): Bloque 30 Paso Nevado (montaña) cerrado en el PC2: pinos cargados de nieve, crestas de los cordones sin corte vertical, relieve con tope suave y sin aristas, cordones…",
@@ -236,11 +236,11 @@
         {
           "id": "F3-musica",
           "nombre": "Musica de menu y carrera (libre de derechos)",
-          "avance": 0,
+          "avance": 100,
           "peso": 1
         }
       ],
-      "avance": 79,
+      "avance": 96,
       "grupo": "Base del juego",
       "opcional": false
     },
@@ -278,11 +278,11 @@
         {
           "id": "F5-mundo",
           "nombre": "Mundo: pits, carteles GRC, edificios, grava, luz precalculada",
-          "avance": 70,
+          "avance": 80,
           "peso": 5
         }
       ],
-      "avance": 70,
+      "avance": 80,
       "grupo": "Base del juego",
       "opcional": false
     },
@@ -323,7 +323,7 @@
         {
           "id": "F8-build",
           "nombre": "Ejecutable Windows, icono, guardado, rendimiento PC 2",
-          "avance": 0,
+          "avance": 60,
           "peso": 3
         },
         {
@@ -345,7 +345,7 @@
           "peso": 1
         }
       ],
-      "avance": 0,
+      "avance": 15,
       "grupo": "Producto y venta",
       "opcional": false
     },
@@ -491,7 +491,7 @@
         {
           "id": "V4-contacto",
           "nombre": "Sombras de contacto y oclusion simulada: mancha bajo autos, AO en vertices, base de arboles y barreras",
-          "avance": 30,
+          "avance": 85,
           "peso": 1
         },
         {
@@ -503,7 +503,7 @@
         {
           "id": "V4-autos",
           "nombre": "Detalle del auto: luces con resplandor, suciedad por ambiente, pinzas de freno, reflejo de sondas por sector",
-          "avance": 20,
+          "avance": 75,
           "peso": 1
         },
         {
@@ -515,13 +515,13 @@
         {
           "id": "V4-flora",
           "nombre": "Flora por ambiente desde el generador de arboles: palmas, helechos, raices tabulares, lianas, cactus, arboles costeros, flores",
-          "avance": 65,
+          "avance": 85,
           "peso": 3
         },
         {
           "id": "V4-paisaje",
           "nombre": "Paisajes de fondo por ambiente: mar con oleaje y espuma, roca roja, montana nevada generica, faro, bruma de selva, HDRI por ambiente",
-          "avance": 70,
+          "avance": 90,
           "peso": 3
         },
         {
@@ -539,11 +539,11 @@
         {
           "id": "V4-driver",
           "nombre": "Driver grafico en Windows: evaluar D3D12 (+ --rendering-method mobile) por defecto o respaldo automatico si Vulkan falla; la Intel HD 620 del PC2 se cuelga con Vulkan (25-11)",
-          "avance": 40,
+          "avance": 90,
           "peso": 1
         }
       ],
-      "avance": 56,
+      "avance": 70,
       "grupo": "Estándar visual",
       "opcional": false
     }
