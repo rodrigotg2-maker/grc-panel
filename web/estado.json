@@ -1,11 +1,11 @@
 {
-  "generado": "2026-11-27T05:26",
+  "generado": "2026-11-27T05:36",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
   "avance_total": 79,
   "en_curso": {
     "titulo": "Fondos por circuito: cerros, montañas nevadas, volcán y faro",
-    "detalle": "Último avance del PC2 (04:38): 45c/46b: especular del cielo en el mojado baja con la distancia (tramo medio lavado); haces con alcance 70 m que entran desde las copas del lado del sol; helechos detr…",
+    "detalle": "Último avance del PC2 (05:34): Tanda final: c3 con la foto y el sol girados -45 grados (el disco y su reflejo entran en el cuadro; costa_giro, costa_yaw_signo), shader de cielo con tope y sin NaN y…",
     "equipo": "PC2",
     "desde": "2026-11-26T23:15"
   },
