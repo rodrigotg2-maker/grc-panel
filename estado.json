@@ -1,19 +1,19 @@
 {
-  "generado": "2026-11-27T06:00",
+  "generado": "2026-11-27T06:03",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
   "avance_total": 79,
   "en_curso": {
-    "titulo": "Cierre de la noche: revisión final, reporte y versión v7",
-    "detalle": "Último avance del PC2 (05:40): Tanda final: nieve con volumen sobre el guardarrail (c7), asfalto mojado de la selva neutro (mas tinte del entorno, menos cielo), haces de la selva sin asomar sobre el…",
+    "titulo": "Bloque 31 · Pits y luz (pedido del dueño)",
+    "detalle": "Último avance del PC2 (06:02): Bloque 31 (pits, c6): delante de cada garaje abierto, pila de neumaticos y 2 mecanicos con el overol del equipo, mas uno junto al muro de boxes que se ve desde la pist…",
     "equipo": "PC2",
     "desde": "2026-11-26T23:15"
   },
   "version_jugable": {
-    "nombre": "GRC3D_v6",
-    "fecha": "2026-11-26",
-    "archivo": "entregas/GRC3D_v6.zip",
-    "contiene": "8 circuitos (con montaña nevada), música, clima y hora por carrera; .exe de Windows sin instalar nada"
+    "nombre": "GRC3D_v7",
+    "fecha": "2026-11-27",
+    "archivo": "entregas/GRC3D_v7.zip",
+    "contiene": "8 circuitos; noche de realismo: autos, árboles, cielos, mojado y luz más cerca de las imágenes meta"
   },
   "circuitos": [
     {
@@ -161,7 +161,7 @@
     }
   ],
   "pendientes_rodrigo": [
-    "Probar GRC3D_v6 en familia (8 circuitos; .exe con doble clic)",
+    "Probar GRC3D_v7 y leer REPORTE_NOCHE_2026-11-27.md (3 decisiones)",
     "Nombres finales de los circuitos y del juego",
     "Decisiones F0: estrategia fuera de la v1.0, itch.io primero, idiomas"
   ],
