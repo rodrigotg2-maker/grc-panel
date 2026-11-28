@@ -1,11 +1,11 @@
 {
-  "generado": "2026-11-28T11:08",
+  "generado": "2026-11-28T11:14",
   "proyecto": "GRC · Global Racers Cup (nombre de trabajo)",
   "meta": "Juego de carreras 3D vendible en itch.io, con el estándar visual de las 6 imágenes de concepto.",
   "avance_total": 79,
   "en_curso": {
     "titulo": "Sombra bajo los autos en Vulkan y gente en la parrilla",
-    "detalle": "PC1 avanza solo mientras el PC2 espera su sesión S4: hoy subieron 63c, 57h y 62e (más 13 bloques del PC2); en curso 66b (bosque: rayos dorados y asfalto mojado).",
+    "detalle": "PC1 avanza solo mientras el PC2 espera su sesión S4: hoy subieron 63c, 57h, 62e y 66b (más 13 bloques del PC2); en curso 65b (nieve: pinos cargados de blanco y bruma de valle).",
     "equipo": "PC2",
     "desde": "2026-11-26T23:15"
   },
